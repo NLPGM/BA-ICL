@@ -202,7 +202,7 @@ def split_triggers_rationals(triggers, rationals_str):
 class ChatGPT_Class():
     def __init__(self, llm_type):
         super(ChatGPT_Class, self).__init__()
-        self.key = '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'
+        self.key = ''
         self.client = OpenAI(api_key=self.key)
         self.llm_type = llm_type
 

@@ -2,7 +2,7 @@ import openai
 
 
 def get_gpt_3_response_local(prompt, engine, temperature, stop):
-    openai.api_key = "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"  # API
+    openai.api_key = ""  # API
     # response = openai.Completion.create(
     #     engine=engine,
     #     prompt=prompt,
@@ -25,7 +25,7 @@ def get_gpt_3_response_local(prompt, engine, temperature, stop):
     return response
 
 def get_gpt_3_response(prompt, engine, temperature, stop):
-    openai.api_key = "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"  # API
+    openai.api_key = ""  # API
     # openai.api_key = "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"  # API
     # response = openai.Completion.create(
     #     engine=engine,
