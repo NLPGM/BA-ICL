@@ -1,0 +1,15 @@
+{
+ "ACE05": {
+    "iid_test": "../data/ACE05/test.json"
+ },
+  "ACE05_CN": {
+    "iid_test": "../data/ACE05_CN/test.json"
+ },
+  "MAVEN": {
+    "iid_test": "../data/MAVEN/test.json"
+ },
+  "pretrained": {
+    "char_embedding": "./embeddings/giga.100.txt",
+    "bert_model": "./bert-base-uncased"
+  }
+}

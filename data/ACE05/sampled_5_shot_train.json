@@ -1,0 +1,5614 @@
+[
+  {
+    "sentence": [
+      "walt",
+      "rodgers",
+      ",",
+      "3-7th",
+      "cavalry",
+      "says",
+      "iraqi",
+      "missile",
+      "hit",
+      "operation",
+      "center",
+      "for",
+      "2nd",
+      "brigade",
+      "3rd",
+      "infantry",
+      "zrigs",
+      "south",
+      "baghdad",
+      ",",
+      "at",
+      "least",
+      "four",
+      "dead",
+      ",",
+      "two",
+      "soldiers",
+      "and",
+      "two",
+      "journalists",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "hit",
+        "start": 8,
+        "end": 9,
+        "event_type": "Conflict:Attack"
+      },
+      {
+        "text": "dead",
+        "start": 23,
+        "end": 24,
+        "event_type": "Life:Die"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Shaunie",
+      "O'Neal",
+      "gave",
+      "birth",
+      "to",
+      "the",
+      "couple",
+      "'s",
+      "third",
+      "child",
+      "at",
+      "1:52",
+      "a.m.",
+      "at",
+      "a",
+      "Los",
+      "Angeles-area",
+      "hospital",
+      ",",
+      "team",
+      "spokesman",
+      "John",
+      "Black",
+      "said",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "birth",
+        "start": 3,
+        "end": 4,
+        "event_type": "Life:Be-Born"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Had",
+      "a",
+      "very",
+      "nice",
+      "ceremony",
+      "with",
+      "a",
+      "justice",
+      "of",
+      "the",
+      "peace",
+      "and",
+      "a",
+      "small",
+      "reception",
+      "for",
+      "the",
+      "family",
+      "members",
+      "traveling",
+      "with",
+      "us",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "ceremony",
+        "start": 4,
+        "end": 5,
+        "event_type": "Life:Marry"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "If",
+      "convicted",
+      "of",
+      "the",
+      "killings",
+      ",",
+      "Vang",
+      "faces",
+      "life",
+      "in",
+      "prison",
+      "as",
+      "Minnesota",
+      "does",
+      "not",
+      "honor",
+      "the",
+      "death",
+      "penalty",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "killings",
+        "start": 4,
+        "end": 5,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "convicted",
+        "start": 1,
+        "end": 2,
+        "event_type": "Justice:Convict"
+      },
+      {
+        "text": "faces",
+        "start": 7,
+        "end": 8,
+        "event_type": "Justice:Sentence"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "'d",
+      "like",
+      "to",
+      "--",
+      "I",
+      "know",
+      "that",
+      ",",
+      "you",
+      "know",
+      ",",
+      "there",
+      "'s",
+      "been",
+      "problems",
+      ",",
+      "a",
+      "lot",
+      "of",
+      "conflict",
+      "over",
+      "there",
+      ",",
+      "and",
+      "it",
+      "seems",
+      "like",
+      "no",
+      "matter",
+      "what",
+      ","
+    ],
+    "triggers": [
+      {
+        "text": "conflict",
+        "start": 20,
+        "end": 21,
+        "event_type": "Conflict:Attack"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "We",
+      "were",
+      "n't",
+      "sure",
+      "what",
+      "we",
+      "wanted",
+      "to",
+      "eat",
+      "for",
+      "dinner",
+      ",",
+      "so",
+      "we",
+      "just",
+      "wandered",
+      "around",
+      "a",
+      "bit",
+      ",",
+      "and",
+      "finally",
+      "ended",
+      "up",
+      "at",
+      "a",
+      "``",
+      "steakhouse",
+      "''",
+      "near",
+      "the",
+      "station",
+      "...",
+      "big",
+      "mistake",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "ended up",
+        "start": 22,
+        "end": 24,
+        "event_type": "Movement:Transport"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "actually",
+      "ca",
+      "n't",
+      "recall",
+      "it",
+      "ever",
+      "taking",
+      "2",
+      "weeks",
+      "to",
+      "``",
+      "count",
+      "''",
+      "these",
+      "many",
+      "ballots",
+      ",",
+      "generally",
+      "elections",
+      "are",
+      "called",
+      "within",
+      "24",
+      "hours",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "elections",
+        "start": 19,
+        "end": 20,
+        "event_type": "Personnel:Elect"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "FBI",
+      ",",
+      "concerned",
+      "that",
+      "terrorists",
+      "could",
+      "use",
+      "lasers",
+      "as",
+      "weapons",
+      ",",
+      "is",
+      "investigating",
+      "why",
+      "laser",
+      "beams",
+      "were",
+      "directed",
+      "into",
+      "the",
+      "cockpits",
+      "of",
+      "seven",
+      "airplanes",
+      "in",
+      "flight",
+      "since",
+      "Christmas",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "use",
+        "start": 7,
+        "end": 8,
+        "event_type": "Conflict:Attack"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Representatives",
+      "of",
+      "those",
+      "countries",
+      "will",
+      "meet",
+      "with",
+      "British",
+      "officials",
+      "May",
+      "7",
+      "and",
+      "Polish",
+      "officials",
+      "May",
+      "22",
+      "to",
+      "determine",
+      "what",
+      "forces",
+      "each",
+      "country",
+      "will",
+      "contribute",
+      "and",
+      "whether",
+      "they",
+      "will",
+      "be",
+      "put",
+      "under",
+      "British",
+      "or",
+      "Polish",
+      "command",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "meet",
+        "start": 5,
+        "end": 6,
+        "event_type": "Contact:Meet"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "``",
+      "We",
+      "welcome",
+      "the",
+      "appointment",
+      "by",
+      "the",
+      "United",
+      "Nations",
+      "Secretary",
+      "-",
+      "General",
+      "of",
+      "a",
+      "special",
+      "adviser",
+      "for",
+      "Iraq",
+      "to",
+      "work",
+      "with",
+      "the",
+      "people",
+      "of",
+      "Iraq",
+      "and",
+      "coalition",
+      "representatives",
+      ",",
+      "''",
+      "the",
+      "statement",
+      "added",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "appointment",
+        "start": 4,
+        "end": 5,
+        "event_type": "Personnel:Start-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "In",
+      "interviews",
+      "last",
+      "year",
+      ",",
+      "Giuliani",
+      "said",
+      "Nathan",
+      "gave",
+      "him",
+      "``",
+      "tremendous",
+      "emotional",
+      "support",
+      "''",
+      "through",
+      "his",
+      "treatment",
+      "for",
+      "prostate",
+      "cancer",
+      "and",
+      "as",
+      "he",
+      "led",
+      "the",
+      "city",
+      "during",
+      "the",
+      "aftermath",
+      "of",
+      "the",
+      "Sept.",
+      "11",
+      "terrorist",
+      "attack",
+      "on",
+      "the",
+      "World",
+      "Trade",
+      "Center",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "attack",
+        "start": 35,
+        "end": 36,
+        "event_type": "Conflict:Attack"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "that",
+      "was",
+      "then",
+      ",",
+      "this",
+      "is",
+      "now",
+      ",",
+      "20",
+      "years",
+      "after",
+      "meeting",
+      "saddam",
+      "hussein",
+      "in",
+      "baghdad",
+      ",",
+      "defense",
+      "secretary",
+      "donald",
+      "rumsfeld",
+      "is",
+      "back",
+      "in",
+      "the",
+      "iraqi",
+      "capital",
+      "with",
+      "victorious",
+      "u.s.",
+      "troops",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "meeting",
+        "start": 11,
+        "end": 12,
+        "event_type": "Contact:Meet"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "Israeli",
+      "military",
+      "on",
+      "Monday",
+      "demolished",
+      "the",
+      "Qawasmeh",
+      "family",
+      "home",
+      ",",
+      "part",
+      "of",
+      "a",
+      "policy",
+      "of",
+      "trying",
+      "to",
+      "deter",
+      "attacks",
+      "by",
+      "punishing",
+      "assailants",
+      "'",
+      "relatives",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "demolished",
+        "start": 5,
+        "end": 6,
+        "event_type": "Conflict:Attack"
+      },
+      {
+        "text": "attacks",
+        "start": 19,
+        "end": 20,
+        "event_type": "Conflict:Attack"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Well",
+      ",",
+      "those",
+      "of",
+      "you",
+      "who",
+      "still",
+      "believe",
+      "the",
+      "myth",
+      "of",
+      "the",
+      "liberal",
+      "media",
+      "should",
+      "consider",
+      "this",
+      ":",
+      "MSNBC",
+      ",",
+      "an",
+      "obscure",
+      "cable",
+      "channel",
+      ",",
+      "has",
+      "fired",
+      "Phil",
+      "Donahue",
+      ",",
+      "the",
+      "host",
+      "of",
+      "its",
+      "highest-rated",
+      "show",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "fired",
+        "start": 26,
+        "end": 27,
+        "event_type": "Personnel:End-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "A",
+      "two-day",
+      "summit",
+      "between",
+      "British",
+      "Prime",
+      "Minister",
+      "Tony",
+      "Blair",
+      "and",
+      "US",
+      "President",
+      "George",
+      "W.",
+      "Bush",
+      "ended",
+      "here",
+      "Tuesday",
+      "with",
+      "both",
+      "countries",
+      "trying",
+      "to",
+      "minimize",
+      "splits",
+      "on",
+      "UN",
+      "role",
+      "in",
+      "rebuilding",
+      "Iraq",
+      "after",
+      "the",
+      "ongoing",
+      "US-led",
+      "war",
+      "against",
+      "the",
+      "country",
+      "is",
+      "over",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "war",
+        "start": 35,
+        "end": 36,
+        "event_type": "Conflict:Attack"
+      },
+      {
+        "text": "summit",
+        "start": 2,
+        "end": 3,
+        "event_type": "Contact:Meet"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "hear",
+      "though",
+      ",",
+      "that",
+      "he",
+      "'s",
+      "going",
+      "to",
+      "be",
+      "--",
+      "the",
+      "first",
+      "person",
+      "to",
+      "be",
+      "-LRB-",
+      "-LRB-",
+      "-RRB-",
+      "-RRB-",
+      "um",
+      "--",
+      "uh",
+      "--",
+      "killed",
+      "for",
+      "a",
+      "crime",
+      "in",
+      "California",
+      "in",
+      "like",
+      ",",
+      "thirty",
+      "five",
+      "years",
+      "or",
+      "something",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "killed",
+        "start": 24,
+        "end": 25,
+        "event_type": "Justice:Execute"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Sunnis",
+      "say",
+      "Iraq",
+      "poll",
+      "illegitimate",
+      "A",
+      "leading",
+      "group",
+      "of",
+      "Iraqi",
+      "Sunni",
+      "clerics",
+      "have",
+      "said",
+      "the",
+      "country",
+      "'s",
+      "landmark",
+      "election",
+      "lacks",
+      "legitimacy",
+      "as",
+      "so",
+      "many",
+      "Sunnis",
+      "did",
+      "not",
+      "take",
+      "part",
+      "in",
+      "the",
+      "vote",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "election",
+        "start": 18,
+        "end": 19,
+        "event_type": "Personnel:Elect"
+      },
+      {
+        "text": "vote",
+        "start": 31,
+        "end": 32,
+        "event_type": "Personnel:Elect"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Powell",
+      "also",
+      "expressed",
+      "hope",
+      "that",
+      "South",
+      "Korea",
+      "and",
+      "Japan",
+      "will",
+      "be",
+      "able",
+      "to",
+      "participate",
+      "``",
+      "when",
+      "and",
+      "if",
+      "''",
+      "there",
+      "is",
+      "another",
+      "round",
+      "of",
+      "talks",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "talks",
+        "start": 24,
+        "end": 25,
+        "event_type": "Contact:Meet"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "It",
+      "'s",
+      "not",
+      "like",
+      "you",
+      "just",
+      "go",
+      "and",
+      "eat",
+      "dinner",
+      "a",
+      "couple",
+      "of",
+      "hours",
+      "and",
+      "go",
+      "home",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "go",
+        "start": 15,
+        "end": 16,
+        "event_type": "Movement:Transport"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "If",
+      "you",
+      "were",
+      "president",
+      ",",
+      "which",
+      "national",
+      "figures",
+      "would",
+      "you",
+      "appoint",
+      "to",
+      "your",
+      "cabinet",
+      "and",
+      "why",
+      "?"
+    ],
+    "triggers": [
+      {
+        "text": "appoint",
+        "start": 10,
+        "end": 11,
+        "event_type": "Personnel:Start-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Reznik",
+      "said",
+      "he",
+      "addressed",
+      "the",
+      "new",
+      "appeal",
+      "directly",
+      "to",
+      "Supreme",
+      "Court",
+      "Chairman",
+      "Vyacheslav",
+      "Lebedev",
+      "and",
+      "asked",
+      "that",
+      "it",
+      "not",
+      "be",
+      "considered",
+      "by",
+      "military",
+      "judges",
+      "``",
+      "because",
+      "the",
+      "military",
+      "justice",
+      "system",
+      "has",
+      "adopted",
+      "a",
+      "biased",
+      "attitude",
+      "against",
+      "Pasko",
+      ",",
+      "''",
+      "Interfax",
+      "reported",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "appeal",
+        "start": 6,
+        "end": 7,
+        "event_type": "Justice:Appeal"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Peterson",
+      "Trial",
+      "Scott",
+      "Peterson",
+      "has",
+      "been",
+      "found",
+      "guilty",
+      "of",
+      "murdering",
+      "his",
+      "wife",
+      "Laci",
+      "and",
+      "their",
+      "unborn",
+      "son",
+      ",",
+      "and",
+      "he",
+      "now",
+      "faces",
+      "the",
+      "death",
+      "penalty",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "guilty",
+        "start": 7,
+        "end": 8,
+        "event_type": "Justice:Convict"
+      },
+      {
+        "text": "murdering",
+        "start": 9,
+        "end": 10,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "faces",
+        "start": 21,
+        "end": 22,
+        "event_type": "Justice:Sentence"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Mischie",
+      "was",
+      "right",
+      "to",
+      "criticize",
+      "the",
+      "national",
+      "leaders",
+      ",",
+      "because",
+      "PSD",
+      "got",
+      "a",
+      "good",
+      "share",
+      "in",
+      "the",
+      "elections",
+      "in",
+      "his",
+      "area",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "elections",
+        "start": 17,
+        "end": 18,
+        "event_type": "Personnel:Elect"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "now",
+      "palestinian",
+      "leaders",
+      "must",
+      "vote",
+      "on",
+      "whether",
+      "to",
+      "september",
+      "24-member",
+      "cabinet",
+      "that",
+      "mazen",
+      "is",
+      "presenting",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "september",
+        "start": 8,
+        "end": 9,
+        "event_type": "Personnel:End-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "MAG",
+      ":",
+      "Arafat",
+      "Skimmed",
+      "$",
+      "2",
+      "Million",
+      "a",
+      "Month",
+      "From",
+      "the",
+      "Gas",
+      "Trade",
+      "Sun",
+      "Nov",
+      "14",
+      "2004",
+      "09:53:40",
+      "ETNew",
+      "York"
+    ],
+    "triggers": [
+      {
+        "text": "Skimmed",
+        "start": 3,
+        "end": 4,
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "You",
+      "might",
+      "also",
+      "want",
+      "to",
+      "be",
+      "wary",
+      "if",
+      "the",
+      "CEO",
+      "or",
+      "a",
+      "bunch",
+      "of",
+      "other",
+      "top",
+      "executives",
+      "have",
+      "been",
+      "replaced",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "replaced",
+        "start": 19,
+        "end": 20,
+        "event_type": "Personnel:End-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Sharon",
+      "indicated",
+      "a",
+      "180-degree",
+      "turnaround",
+      "after",
+      "decades",
+      "of",
+      "warning",
+      "that",
+      "an",
+      "Israeli",
+      "withdrawal",
+      "from",
+      "even",
+      "small",
+      "parts",
+      "of",
+      "the",
+      "West",
+      "Bank",
+      "could",
+      "endanger",
+      "Israel",
+      "'s",
+      "existence",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "withdrawal",
+        "start": 12,
+        "end": 13,
+        "event_type": "Movement:Transport"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Chiluba",
+      "was",
+      "Zambia",
+      "'s",
+      "first",
+      "democratically",
+      "elected",
+      "president",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "elected",
+        "start": 6,
+        "end": 7,
+        "event_type": "Personnel:Elect"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "We",
+      "'re",
+      "actually",
+      ",",
+      "um",
+      ",",
+      "going",
+      "to",
+      "France",
+      "for",
+      "Christmas",
+      "to",
+      "have",
+      "with",
+      "my",
+      "aunt",
+      ",",
+      "so",
+      "-"
+    ],
+    "triggers": [
+      {
+        "text": "going",
+        "start": 6,
+        "end": 7,
+        "event_type": "Movement:Transport"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Ba'asyir",
+      ",",
+      "64",
+      ",",
+      "was",
+      "arrested",
+      "on",
+      "preliminary",
+      "charges",
+      "of",
+      "involvement",
+      "in",
+      "a",
+      "series",
+      "of",
+      "church",
+      "bombings",
+      "on",
+      "the",
+      "eve",
+      "of",
+      "the",
+      "2000",
+      "Christmas",
+      "and",
+      "an",
+      "alleged",
+      "plot",
+      "to",
+      "assassinate",
+      "Megawati",
+      "Soekarnoputri",
+      "in",
+      "1999",
+      ",",
+      "when",
+      "she",
+      "was",
+      "vice",
+      "president",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "arrested",
+        "start": 5,
+        "end": 6,
+        "event_type": "Justice:Arrest-Jail"
+      },
+      {
+        "text": "assassinate",
+        "start": 29,
+        "end": 30,
+        "event_type": "Conflict:Attack"
+      },
+      {
+        "text": "bombings",
+        "start": 16,
+        "end": 17,
+        "event_type": "Conflict:Attack"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "but",
+      "it",
+      "was",
+      "n't",
+      "actually",
+      "for",
+      "peace",
+      "but",
+      "was",
+      "to",
+      "try",
+      "to",
+      "find",
+      "a",
+      "way",
+      "to",
+      "-LRB-",
+      "-LRB-",
+      "send",
+      "-RRB-",
+      "-RRB-",
+      "the",
+      "Israelis",
+      "out",
+      "of",
+      "Jerusalem",
+      "in",
+      "the",
+      "areas",
+      "that",
+      "they",
+      "wanted",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "send",
+        "start": 18,
+        "end": 19,
+        "event_type": "Movement:Transport"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Yeah",
+      ",",
+      "because",
+      "I",
+      "was",
+      "really",
+      "--",
+      "I",
+      "was",
+      "n't",
+      "really",
+      "following",
+      "it",
+      "that",
+      "much",
+      "because",
+      "I",
+      "was",
+      "-"
+    ],
+    "triggers": [
+      {
+        "text": "it",
+        "start": 12,
+        "end": 13,
+        "event_type": "Justice:Trial-Hearing"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "President",
+      "Bush",
+      "vows",
+      "a",
+      "final",
+      "push",
+      "to",
+      "victory",
+      "and",
+      "he",
+      "mourns",
+      "the",
+      "loss",
+      "of",
+      "fallen",
+      "Marines",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "fallen",
+        "start": 14,
+        "end": 15,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "loss",
+        "start": 12,
+        "end": 13,
+        "event_type": "Life:Die"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "knew",
+      "it",
+      "was",
+      "time",
+      "to",
+      "leave",
+      ".",
+      "''"
+    ],
+    "triggers": [
+      {
+        "text": "leave",
+        "start": 6,
+        "end": 7,
+        "event_type": "Personnel:End-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Feel",
+      "free",
+      "to",
+      "email",
+      "me",
+      "if",
+      "you",
+      "do",
+      "want",
+      "to",
+      "post",
+      "to",
+      "the",
+      "forum",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "email",
+        "start": 3,
+        "end": 4,
+        "event_type": "Contact:Phone-Write"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "i",
+      "felt",
+      "t7ire",
+      "was",
+      "something",
+      "else",
+      "too",
+      ",",
+      "much",
+      "history",
+      "behind",
+      "silver",
+      "cross",
+      "to",
+      "end",
+      "is",
+      "now",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "end",
+        "start": 14,
+        "end": 15,
+        "event_type": "Business:End-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "wonder",
+      "how",
+      "many",
+      "success",
+      "stories",
+      "are",
+      "out",
+      "there",
+      "from",
+      "people",
+      "who",
+      "chose",
+      "to",
+      "have",
+      "a",
+      "civil",
+      "ceremony",
+      ",",
+      "and",
+      "went",
+      "on",
+      "later",
+      "to",
+      "be",
+      "happily",
+      "sealed",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "ceremony",
+        "start": 17,
+        "end": 18,
+        "event_type": "Life:Marry"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "sam",
+      "waksal",
+      "has",
+      "been",
+      "sentenced",
+      "to",
+      "more",
+      "that",
+      "seven",
+      "years",
+      "in",
+      "prison",
+      ",",
+      "ordered",
+      "to",
+      "pay",
+      "$",
+      "4",
+      "million",
+      "in",
+      "fines",
+      "and",
+      "back",
+      "taxes",
+      "in",
+      "connection",
+      "with",
+      "the",
+      "insider",
+      "trading",
+      "scandal",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "sentenced",
+        "start": 4,
+        "end": 5,
+        "event_type": "Justice:Sentence"
+      },
+      {
+        "text": "fines",
+        "start": 20,
+        "end": 21,
+        "event_type": "Justice:Fine"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Anwar",
+      "led",
+      "large",
+      "protests",
+      "against",
+      "Mahathir",
+      "before",
+      "he",
+      "was",
+      "arrested",
+      ",",
+      "charged",
+      "and",
+      "convicted",
+      "on",
+      "corruption",
+      "and",
+      "sodomy",
+      "charges",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "protests",
+        "start": 3,
+        "end": 4,
+        "event_type": "Conflict:Demonstrate"
+      },
+      {
+        "text": "arrested",
+        "start": 9,
+        "end": 10,
+        "event_type": "Justice:Arrest-Jail"
+      },
+      {
+        "text": "charged",
+        "start": 11,
+        "end": 12,
+        "event_type": "Justice:Charge-Indict"
+      },
+      {
+        "text": "convicted",
+        "start": 13,
+        "end": 14,
+        "event_type": "Justice:Convict"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "then",
+      "the",
+      "baby",
+      "'s",
+      "mother",
+      "made",
+      "a",
+      "frantic",
+      "call",
+      "to",
+      "the",
+      "police",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "call",
+        "start": 8,
+        "end": 9,
+        "event_type": "Contact:Phone-Write"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "military",
+      "chief",
+      "of",
+      "the",
+      "Kurdish",
+      "KDP",
+      ",",
+      "the",
+      "brother",
+      "of",
+      "their",
+      "leader",
+      ",",
+      "Massud",
+      "Barzani",
+      "-LRB-",
+      "ph",
+      "-RRB-",
+      ",",
+      "was",
+      "gravely",
+      "hurt",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "hurt",
+        "start": 22,
+        "end": 23,
+        "event_type": "Life:Injure"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Counter-demonstrations",
+      "in",
+      "support",
+      "of",
+      "the",
+      "US-led",
+      "invasion",
+      "of",
+      "Iraq",
+      "took",
+      "place",
+      "in",
+      "some",
+      "cities",
+      ",",
+      "with",
+      "some",
+      "2,500",
+      "people",
+      "turning",
+      "out",
+      "in",
+      "Chicago",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "invasion",
+        "start": 6,
+        "end": 7,
+        "event_type": "Conflict:Attack"
+      },
+      {
+        "text": "demonstrations",
+        "start": 0,
+        "end": 1,
+        "event_type": "Conflict:Demonstrate"
+      },
+      {
+        "text": "turning out",
+        "start": 19,
+        "end": 21,
+        "event_type": "Conflict:Demonstrate"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "think",
+      "what",
+      "he",
+      "wrote",
+      "me",
+      "about",
+      "was",
+      "the",
+      "fact",
+      "that",
+      "the",
+      "inter-agency",
+      "process",
+      ",",
+      "where",
+      "we",
+      "have",
+      "all",
+      "these",
+      "FBI",
+      "and",
+      "Department",
+      "of",
+      "Justice",
+      "and",
+      "CIA",
+      "and",
+      "DIA",
+      ",",
+      "and",
+      "what",
+      "have",
+      "you",
+      ",",
+      "involved",
+      "in",
+      "interrogating",
+      "these",
+      "detainees",
+      ",",
+      "it",
+      "takes",
+      "time",
+      "to",
+      "find",
+      "out",
+      "what",
+      "intelligence",
+      "they",
+      "have",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "wrote",
+        "start": 4,
+        "end": 5,
+        "event_type": "Contact:Phone-Write"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Earlier",
+      ",",
+      "Secretary",
+      "of",
+      "State",
+      "Colin",
+      "Powell",
+      "had",
+      "told",
+      "a",
+      "gathering",
+      "of",
+      "experts",
+      "from",
+      "the",
+      "Asia-Pacific",
+      "region",
+      "that",
+      "the",
+      "talks",
+      "had",
+      "concluded",
+      ",",
+      "leaving",
+      "the",
+      "impression",
+      "there",
+      "would",
+      "not",
+      "be",
+      "a",
+      "third",
+      "day",
+      "of",
+      "discussions",
+      "on",
+      "Friday",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "talks",
+        "start": 19,
+        "end": 20,
+        "event_type": "Contact:Meet"
+      },
+      {
+        "text": "discussions",
+        "start": 34,
+        "end": 35,
+        "event_type": "Contact:Meet"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "do",
+      "n't",
+      "think",
+      "that",
+      "'s",
+      "quite",
+      "accurate",
+      "as",
+      "to",
+      "what",
+      "he",
+      "wrote",
+      "me",
+      "about",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "wrote",
+        "start": 12,
+        "end": 13,
+        "event_type": "Contact:Phone-Write"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Of",
+      "course",
+      ",",
+      "it",
+      "was",
+      "discovered",
+      "that",
+      "his",
+      "men",
+      "'s",
+      "basketball",
+      "coach",
+      "had",
+      "directly",
+      "given",
+      "six",
+      "grand",
+      "to",
+      "a",
+      "Yugoslavian",
+      "recruit",
+      ",",
+      "but",
+      "that",
+      "was",
+      "just",
+      "his",
+      "stipend",
+      "for",
+      "travel",
+      "and",
+      "coach",
+      "Jim",
+      "O'Brien",
+      "was",
+      "just",
+      "having",
+      "a",
+      "problem",
+      "with",
+      "the",
+      "currency",
+      "exchange",
+      "rates",
+      "...",
+      "right",
+      "Andy",
+      "?"
+    ],
+    "triggers": [
+      {
+        "text": "given",
+        "start": 14,
+        "end": 15,
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "appointment",
+      "marked",
+      "the",
+      "second",
+      "change",
+      "of",
+      "the",
+      "cabinet",
+      "post",
+      "since",
+      "the",
+      "Spidla-led",
+      "government",
+      "came",
+      "into",
+      "power",
+      "in",
+      "July",
+      "2002",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "appointment",
+        "start": 1,
+        "end": 2,
+        "event_type": "Personnel:Start-Position"
+      },
+      {
+        "text": "came into power",
+        "start": 14,
+        "end": 17,
+        "event_type": "Personnel:Elect"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "prime",
+      "minister",
+      "jean",
+      "chretien",
+      "says",
+      "the",
+      "government",
+      "will",
+      "now",
+      "draft",
+      "legislation",
+      "legalizing",
+      "gay",
+      "marriages",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "marriages",
+        "start": 13,
+        "end": 14,
+        "event_type": "Life:Marry"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "From",
+      "the",
+      "Associated",
+      "Press",
+      ":",
+      "A",
+      "baby",
+      "girl",
+      "who",
+      "had",
+      "been",
+      "cut",
+      "out",
+      "of",
+      "her",
+      "mother",
+      "'s",
+      "womb",
+      "was",
+      "found",
+      "after",
+      "a",
+      "frantic",
+      "search",
+      ",",
+      "and",
+      "authorities",
+      "arrested",
+      "the",
+      "woman",
+      "they",
+      "say",
+      "strangled",
+      "the",
+      "mother",
+      "and",
+      "stole",
+      "the",
+      "child",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "arrested",
+        "start": 27,
+        "end": 28,
+        "event_type": "Justice:Arrest-Jail"
+      },
+      {
+        "text": "cut out",
+        "start": 11,
+        "end": 13,
+        "event_type": "Life:Be-Born"
+      },
+      {
+        "text": "strangled",
+        "start": 32,
+        "end": 33,
+        "event_type": "Conflict:Attack"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "My",
+      "uncle",
+      "declared",
+      "bankruptcy",
+      "in",
+      "2003",
+      "and",
+      "his",
+      "case",
+      "closed",
+      "in",
+      "June",
+      "2004",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "bankruptcy",
+        "start": 3,
+        "end": 4,
+        "event_type": "Business:Declare-Bankruptcy"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "defense",
+      "attorneys",
+      "argue",
+      "that",
+      "an",
+      "individual",
+      "can",
+      "not",
+      "be",
+      "charged",
+      "under",
+      "federal",
+      "law",
+      "and",
+      "then",
+      "state",
+      "law",
+      "for",
+      "the",
+      "same",
+      "act",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "charged",
+        "start": 9,
+        "end": 10,
+        "event_type": "Justice:Charge-Indict"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "joining",
+      "us",
+      "on",
+      "the",
+      "phone",
+      "is",
+      "the",
+      "mayor",
+      "of",
+      "jackson",
+      ",",
+      "tennessee",
+      ",",
+      "charles",
+      "farmer",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "phone",
+        "start": 4,
+        "end": 5,
+        "event_type": "Contact:Phone-Write"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "56-year-old",
+      "forry",
+      "drake",
+      "has",
+      "been",
+      "charged",
+      "with",
+      "interstate",
+      "transport",
+      "of",
+      "a",
+      "minor",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "charged",
+        "start": 5,
+        "end": 6,
+        "event_type": "Justice:Charge-Indict"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "White",
+      "House",
+      "spokesman",
+      "Ari",
+      "Fleischer",
+      "blamed",
+      "Saddam",
+      "Hussein",
+      "'s",
+      "regime",
+      "for",
+      "slowing",
+      "the",
+      "flow",
+      "of",
+      "US$",
+      "105",
+      "million",
+      "in",
+      "U.S.",
+      "aid",
+      "by",
+      "placing",
+      "mines",
+      "in",
+      "the",
+      "port",
+      "of",
+      "Umm",
+      "Qasr",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "aid",
+        "start": 20,
+        "end": 21,
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "-LRB-",
+      "-LRB-",
+      "-RRB-",
+      "-RRB-",
+      "finish",
+      ",",
+      "things",
+      "were",
+      "getting",
+      "him",
+      "down",
+      ",",
+      "uh",
+      "you",
+      "know",
+      ",",
+      "you",
+      "know",
+      "how",
+      "it",
+      "is",
+      ",",
+      "day",
+      "after",
+      "day",
+      "though",
+      "--",
+      "M",
+      "-",
+      "marriage",
+      "is",
+      "n't",
+      "all",
+      "that",
+      "wonderful",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "marriage",
+        "start": 29,
+        "end": 30,
+        "event_type": "Life:Marry"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Just",
+      "within",
+      "the",
+      "past",
+      "couple",
+      "of",
+      "months",
+      "though",
+      ",",
+      "the",
+      "American",
+      "Carousel",
+      "Society",
+      "had",
+      "determined",
+      "that",
+      "they",
+      "did",
+      "not",
+      "have",
+      "the",
+      "funding",
+      "to",
+      "continue",
+      "with",
+      "the",
+      "operation",
+      "of",
+      "their",
+      "organization",
+      "and",
+      "officially",
+      "ceased",
+      "to",
+      "exist",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "ceased",
+        "start": 32,
+        "end": 33,
+        "event_type": "Business:End-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "At",
+      "least",
+      "18",
+      "people",
+      "were",
+      "killed",
+      "and",
+      "more",
+      "than",
+      "45",
+      "wounded",
+      ",",
+      "including",
+      "senior",
+      "Kurdish",
+      "commanders",
+      ",",
+      "Kurdish",
+      "officials",
+      "said",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "killed",
+        "start": 5,
+        "end": 6,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "wounded",
+        "start": 10,
+        "end": 11,
+        "event_type": "Life:Injure"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "If",
+      "you",
+      "go",
+      "for",
+      "a",
+      "home",
+      "birth",
+      "you",
+      "can",
+      "rent",
+      "a",
+      "birthing",
+      "pool",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "birth",
+        "start": 11,
+        "end": 12,
+        "event_type": "Life:Be-Born"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "pair",
+      "were",
+      "ordered",
+      "to",
+      "pay",
+      "$",
+      "871.70",
+      "plus",
+      "$",
+      "39",
+      "in",
+      "court",
+      "costs",
+      "after",
+      "neighbor",
+      "Wanita",
+      "Renea",
+      "Young",
+      ",",
+      "49",
+      ",",
+      "filed",
+      "a",
+      "lawsuit",
+      "complaining",
+      "that",
+      "the",
+      "unsolicited",
+      "cookies",
+      ",",
+      "left",
+      "at",
+      "her",
+      "house",
+      "after",
+      "the",
+      "girls",
+      "knocked",
+      "on",
+      "her",
+      "door",
+      ",",
+      "had",
+      "triggered",
+      "an",
+      "anxiety",
+      "attack",
+      "that",
+      "sent",
+      "her",
+      "to",
+      "the",
+      "hospital",
+      "the",
+      "next",
+      "day",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "pay",
+        "start": 5,
+        "end": 6,
+        "event_type": "Transaction:Transfer-Money"
+      },
+      {
+        "text": "lawsuit",
+        "start": 24,
+        "end": 25,
+        "event_type": "Justice:Sue"
+      },
+      {
+        "text": "sent",
+        "start": 49,
+        "end": 50,
+        "event_type": "Movement:Transport"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "``",
+      "That",
+      "'s",
+      "not",
+      "the",
+      "sort",
+      "of",
+      "thing",
+      "you",
+      "pick",
+      "up",
+      "at",
+      "a",
+      "military",
+      "surplus",
+      "store",
+      ".",
+      "''"
+    ],
+    "triggers": [
+      {
+        "text": "pick up",
+        "start": 9,
+        "end": 11,
+        "event_type": "Transaction:Transfer-Ownership"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "a",
+      "week",
+      "after",
+      "these",
+      "pictures",
+      "surfaced",
+      ",",
+      "and",
+      "after",
+      "saying",
+      "he",
+      "'d",
+      "fight",
+      "for",
+      "his",
+      "job",
+      ",",
+      "larry",
+      "eustachy",
+      "resigned",
+      "as",
+      "basketball",
+      "coach",
+      "at",
+      "iowa",
+      "state",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "resigned",
+        "start": 19,
+        "end": 20,
+        "event_type": "Personnel:End-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Some",
+      "70",
+      "people",
+      "were",
+      "arrested",
+      "Saturday",
+      "as",
+      "demonstrators",
+      "clashed",
+      "with",
+      "police",
+      "at",
+      "the",
+      "end",
+      "of",
+      "a",
+      "major",
+      "peace",
+      "rally",
+      "here",
+      ",",
+      "as",
+      "at",
+      "least",
+      "200,000",
+      "anti-war",
+      "protesters",
+      "took",
+      "to",
+      "the",
+      "streets",
+      "across",
+      "the",
+      "United",
+      "States",
+      "and",
+      "Canada",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "arrested",
+        "start": 4,
+        "end": 5,
+        "event_type": "Justice:Arrest-Jail"
+      },
+      {
+        "text": "clashed",
+        "start": 8,
+        "end": 9,
+        "event_type": "Conflict:Attack"
+      },
+      {
+        "text": "rally",
+        "start": 18,
+        "end": 19,
+        "event_type": "Conflict:Demonstrate"
+      },
+      {
+        "text": "took",
+        "start": 27,
+        "end": 28,
+        "event_type": "Movement:Transport"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "the",
+      "couple",
+      "is",
+      "preparing",
+      "to",
+      "tie",
+      "the",
+      "knot",
+      "at",
+      "gracie",
+      "mansion",
+      "in",
+      "new",
+      "york",
+      "tonight",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "tie the knot",
+        "start": 5,
+        "end": 8,
+        "event_type": "Life:Marry"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "mean",
+      ",",
+      "I",
+      "'d",
+      "like",
+      "to",
+      "s",
+      "-",
+      "--",
+      "I",
+      "'d",
+      "like",
+      "to",
+      "see",
+      "the",
+      "Greens",
+      "run",
+      "David",
+      "Cobb",
+      "again",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "run",
+        "start": 17,
+        "end": 18,
+        "event_type": "Personnel:Nominate"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "When",
+      "the",
+      "chain",
+      "passed",
+      "from",
+      "its",
+      "private",
+      "owners",
+      "a",
+      "few",
+      "years",
+      "ago",
+      ",",
+      "problems",
+      "began",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "passed",
+        "start": 3,
+        "end": 4,
+        "event_type": "Transaction:Transfer-Ownership"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "One",
+      "defendant",
+      "was",
+      "acquitted",
+      ",",
+      "while",
+      "the",
+      "court",
+      "sent",
+      "four",
+      "other",
+      "cases",
+      "back",
+      "to",
+      "police",
+      "for",
+      "further",
+      "investigation",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "acquitted",
+        "start": 3,
+        "end": 4,
+        "event_type": "Justice:Acquit"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "mean",
+      "I",
+      "guess",
+      "that",
+      "'s",
+      "not",
+      "how",
+      "they",
+      "decide",
+      "who",
+      "died",
+      ",",
+      "but",
+      "it",
+      "'s",
+      "because",
+      "of",
+      "the"
+    ],
+    "triggers": [
+      {
+        "text": "died",
+        "start": 11,
+        "end": 12,
+        "event_type": "Justice:Execute"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "It",
+      "lists",
+      "multiple",
+      "claims",
+      "against",
+      "one",
+      "physician",
+      "when",
+      "actually",
+      "it",
+      "'s",
+      "really",
+      "one",
+      "claim",
+      ",",
+      "different",
+      "insurers",
+      "pay",
+      "on",
+      "the",
+      "same",
+      "physician",
+      "and",
+      "it",
+      "'s",
+      "counted",
+      "as",
+      "one",
+      "claim",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "claims",
+        "start": 3,
+        "end": 4,
+        "event_type": "Justice:Sue"
+      },
+      {
+        "text": "claim",
+        "start": 13,
+        "end": 14,
+        "event_type": "Justice:Sue"
+      },
+      {
+        "text": "claim",
+        "start": 28,
+        "end": 29,
+        "event_type": "Justice:Sue"
+      },
+      {
+        "text": "pay",
+        "start": 17,
+        "end": 18,
+        "event_type": "Justice:Fine"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "He",
+      "innovated",
+      "suicide",
+      "bombers",
+      "and",
+      "plane",
+      "hijacking",
+      "plus",
+      "he",
+      "embezzelled",
+      "hundreds",
+      "of",
+      "millions",
+      "of",
+      "dollars",
+      "from",
+      "aid",
+      "funds",
+      "...",
+      "and",
+      "this",
+      "guy",
+      "got",
+      "a",
+      "nobel",
+      "peace",
+      "prize",
+      ",",
+      "what",
+      "a",
+      "disgrace",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "suicide",
+        "start": 2,
+        "end": 3,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "embezzelled",
+        "start": 9,
+        "end": 10,
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "And",
+      "because",
+      "of",
+      "the",
+      "the",
+      "charge",
+      "on",
+      "the",
+      "baby",
+      ",",
+      "they",
+      "could",
+      "n't",
+      "automatically",
+      "give",
+      "him",
+      "the",
+      "death",
+      "penalty",
+      ",",
+      "but",
+      "--",
+      "obviously",
+      "there",
+      "'s",
+      "enough",
+      "--",
+      "um",
+      ",",
+      "complaints",
+      "or",
+      "whatever"
+    ],
+    "triggers": [
+      {
+        "text": "charge",
+        "start": 5,
+        "end": 6,
+        "event_type": "Justice:Charge-Indict"
+      },
+      {
+        "text": "give",
+        "start": 14,
+        "end": 15,
+        "event_type": "Justice:Sentence"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "He",
+      "was",
+      "hanged",
+      "there",
+      ",",
+      "hanged",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "hanged",
+        "start": 2,
+        "end": 3,
+        "event_type": "Justice:Execute"
+      },
+      {
+        "text": "hanged",
+        "start": 5,
+        "end": 6,
+        "event_type": "Life:Die"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "A",
+      "brave",
+      "civilian",
+      "with",
+      "a",
+      "concealed",
+      "weapons",
+      "permit",
+      "tried",
+      "to",
+      "stop",
+      "him",
+      "but",
+      "was",
+      "gunned",
+      "down",
+      "by",
+      "David",
+      "Hernandez",
+      "Arroyo",
+      "Sr",
+      ",",
+      "the",
+      "scumbag",
+      "who",
+      "happened",
+      "to",
+      "be",
+      "wearing",
+      "body",
+      "armor",
+      "at",
+      "the",
+      "time",
+      "and",
+      "who",
+      "also",
+      "took",
+      "out",
+      "his",
+      "ex-wife",
+      "over",
+      "a",
+      "child",
+      "support",
+      "dispute",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "took out",
+        "start": 37,
+        "end": 39,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "gunned down",
+        "start": 14,
+        "end": 16,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "ex",
+        "start": 40,
+        "end": 41,
+        "event_type": "Life:Divorce"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "But",
+      "I",
+      "think",
+      "he",
+      "would",
+      "be",
+      "the",
+      "first",
+      "in",
+      ",",
+      "in",
+      "a",
+      "really",
+      "long",
+      "time",
+      "to",
+      "actually",
+      "--",
+      "be",
+      "killed",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "killed",
+        "start": 19,
+        "end": 20,
+        "event_type": "Justice:Execute"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Ominously",
+      ",",
+      "they",
+      "also",
+      "took",
+      "a",
+      "prison",
+      "where",
+      "they",
+      "found",
+      "U.S.",
+      "Army",
+      "uniforms",
+      "and",
+      "chemical",
+      "weapons",
+      "suits",
+      "possibly",
+      "belonging",
+      "to",
+      "American",
+      "POWs",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "took",
+        "start": 4,
+        "end": 5,
+        "event_type": "Transaction:Transfer-Ownership"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Can",
+      "you",
+      "say",
+      "that",
+      "the",
+      "lawyers",
+      ",",
+      "the",
+      "trial",
+      "lawyers",
+      "who",
+      "appoint",
+      "millions",
+      "and",
+      "millions",
+      "of",
+      "dollars",
+      "into",
+      "Democratic",
+      "coffers",
+      "in",
+      "order",
+      "to",
+      "keep",
+      "this",
+      ",",
+      "do",
+      "you",
+      "believe",
+      "that",
+      "this",
+      "is",
+      "healthy",
+      "..."
+    ],
+    "triggers": [
+      {
+        "text": "trial",
+        "start": 8,
+        "end": 9,
+        "event_type": "Justice:Trial-Hearing"
+      },
+      {
+        "text": "appoint",
+        "start": 11,
+        "end": 12,
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Are",
+      "you",
+      "going",
+      "to",
+      "demonstrate",
+      "against",
+      "them",
+      "in",
+      "the",
+      "streets",
+      "?"
+    ],
+    "triggers": [
+      {
+        "text": "demonstrate",
+        "start": 4,
+        "end": 5,
+        "event_type": "Conflict:Demonstrate"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Where",
+      "'s",
+      "he",
+      "going",
+      "to",
+      "Commerce",
+      "?"
+    ],
+    "triggers": [
+      {
+        "text": "going",
+        "start": 3,
+        "end": 4,
+        "event_type": "Personnel:Start-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "yesterday",
+      "a",
+      "silent",
+      "dee",
+      "ana",
+      "laney",
+      "waited",
+      "as",
+      "the",
+      "judge",
+      "read",
+      "the",
+      "charges",
+      "against",
+      "her",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "charges",
+        "start": 12,
+        "end": 13,
+        "event_type": "Justice:Charge-Indict"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "officials",
+      "at",
+      "the",
+      "hospital",
+      "say",
+      "the",
+      "sev",
+      "reason",
+      "in",
+      "good",
+      "shape",
+      "and",
+      "their",
+      "prognosis",
+      "is",
+      "excellent",
+      ",",
+      "even",
+      "though",
+      "three",
+      "have",
+      "gunshot",
+      "wounds",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "wounds",
+        "start": 22,
+        "end": 23,
+        "event_type": "Life:Injure"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "So",
+      "who",
+      "would",
+      "y",
+      "-",
+      "what",
+      "would",
+      "you",
+      "appoint",
+      "him",
+      "to",
+      "?"
+    ],
+    "triggers": [
+      {
+        "text": "appoint",
+        "start": 8,
+        "end": 9,
+        "event_type": "Personnel:Start-Position"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "She",
+      "was",
+      "sentenced",
+      "to",
+      "1",
+      "-LCB-",
+      "years",
+      "in",
+      "jail",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "sentenced",
+        "start": 2,
+        "end": 3,
+        "event_type": "Justice:Sentence"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "hamas",
+      "was",
+      "founded",
+      "in",
+      "1988",
+      "by",
+      "a",
+      "blind",
+      "paraplegic",
+      "cleric",
+      "who",
+      "was",
+      "influenced",
+      "by",
+      "the",
+      "islamic",
+      "muslim",
+      "brotherhood",
+      ",",
+      "with",
+      "backing",
+      "from",
+      "israel",
+      ",",
+      "he",
+      "set",
+      "up",
+      "sharities",
+      "in",
+      "the",
+      "improverished",
+      "strip",
+      "in",
+      "the",
+      "1970s",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "founded",
+        "start": 2,
+        "end": 3,
+        "event_type": "Business:Start-Org"
+      },
+      {
+        "text": "set up",
+        "start": 25,
+        "end": 27,
+        "event_type": "Business:Start-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Iraqi",
+      "officials",
+      ",",
+      "however",
+      ",",
+      "remained",
+      "defiant",
+      ",",
+      "saying",
+      "Iraq",
+      "'s",
+      "forces",
+      "would",
+      "never",
+      "surrender",
+      "to",
+      "American",
+      "forces",
+      ":",
+      "``",
+      "They",
+      "will",
+      "be",
+      "burnt",
+      ",",
+      "''",
+      "said",
+      "Information",
+      "Minister",
+      "Mohammed",
+      "Saeed",
+      "al-Sahhaf",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "burnt",
+        "start": 23,
+        "end": 24,
+        "event_type": "Life:Injure"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "U.S.",
+      "District",
+      "Judge",
+      "John",
+      "S.",
+      "Martin",
+      "did",
+      "not",
+      "immediately",
+      "rule",
+      "but",
+      "scheduled",
+      "a",
+      "hearing",
+      "for",
+      "next",
+      "week",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "hearing",
+        "start": 13,
+        "end": 14,
+        "event_type": "Justice:Trial-Hearing"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Reznik",
+      "said",
+      "an",
+      "initial",
+      "appeal",
+      "he",
+      "lodged",
+      "the",
+      "day",
+      "Pasko",
+      "was",
+      "freed",
+      "never",
+      "reached",
+      "the",
+      "presidium",
+      "of",
+      "the",
+      "Supreme",
+      "Court",
+      ",",
+      "according",
+      "to",
+      "Interfax",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "freed",
+        "start": 11,
+        "end": 12,
+        "event_type": "Justice:Release-Parole"
+      },
+      {
+        "text": "appeal",
+        "start": 4,
+        "end": 5,
+        "event_type": "Justice:Appeal"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "and",
+      "the",
+      "arrest",
+      "of",
+      "the",
+      "prime",
+      "suspect",
+      ",",
+      "derrick",
+      "lee",
+      "tee",
+      "lee",
+      "w.",
+      "``",
+      "re",
+      "joined",
+      "on",
+      "the",
+      "phone",
+      "by",
+      "the",
+      "police",
+      "chief",
+      "of",
+      "atlanta",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "arrest",
+        "start": 2,
+        "end": 3,
+        "event_type": "Justice:Arrest-Jail"
+      },
+      {
+        "text": "phone",
+        "start": 18,
+        "end": 19,
+        "event_type": "Contact:Phone-Write"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "negotiators",
+      "say",
+      "he",
+      "demanded",
+      "the",
+      "release",
+      "of",
+      "four",
+      "prisoners",
+      ",",
+      "including",
+      "ramzi",
+      "binalshibh",
+      ",",
+      "a",
+      "september",
+      "11th",
+      "suspect",
+      "apprehended",
+      "last",
+      "year",
+      "in",
+      "pakistan",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "release",
+        "start": 5,
+        "end": 6,
+        "event_type": "Justice:Release-Parole"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "a",
+      "source",
+      "tell",
+      "us",
+      "enron",
+      "is",
+      "considering",
+      "suing",
+      "its",
+      "own",
+      "investment",
+      "bankers",
+      "for",
+      "giving",
+      "it",
+      "bad",
+      "financial",
+      "advice",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "suing",
+        "start": 7,
+        "end": 8,
+        "event_type": "Justice:Sue"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "who",
+      "have",
+      "been",
+      "horribly",
+      "murdered",
+      "and",
+      "tortured",
+      "and",
+      "reduced",
+      "to",
+      "misery",
+      "since",
+      "by",
+      "a",
+      "half",
+      "application",
+      "of",
+      "violence",
+      "through",
+      "sanctions",
+      "and",
+      "overflights",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "murdered",
+        "start": 4,
+        "end": 5,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "tortured",
+        "start": 6,
+        "end": 7,
+        "event_type": "Life:Injure"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Ummm",
+      ",",
+      "am",
+      "I",
+      "the",
+      "only",
+      "one",
+      "that",
+      "learned",
+      "anything",
+      "from",
+      "the",
+      "Michael",
+      "Irvin",
+      "drug",
+      "trial",
+      "of",
+      "the",
+      "mid",
+      "90",
+      "'s",
+      "?"
+    ],
+    "triggers": [
+      {
+        "text": "trial",
+        "start": 15,
+        "end": 16,
+        "event_type": "Justice:Trial-Hearing"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "state",
+      "proceedings",
+      "could",
+      "bring",
+      "the",
+      "death",
+      "penalty",
+      "if",
+      "nichols",
+      "is",
+      "convicted",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "death penalty",
+        "start": 5,
+        "end": 7,
+        "event_type": "Justice:Execute"
+      },
+      {
+        "text": "convicted",
+        "start": 10,
+        "end": 11,
+        "event_type": "Justice:Convict"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "In",
+      "order",
+      "to",
+      "improve",
+      "the",
+      "epidemic",
+      "control",
+      ",",
+      "Secretary",
+      "for",
+      "Social",
+      "Affairs",
+      "and",
+      "Culture",
+      "Chui",
+      "Sai",
+      "On",
+      ",",
+      "who",
+      "has",
+      "been",
+      "named",
+      "director",
+      "of",
+      "the",
+      "SARS",
+      "task",
+      "force",
+      "by",
+      "the",
+      "government",
+      ",",
+      "has",
+      "designated",
+      "representatives",
+      "from",
+      "the",
+      "Health",
+      "Services",
+      "and",
+      "the",
+      "Center",
+      "for",
+      "Disease",
+      "Prevention",
+      "and",
+      "Control",
+      "to",
+      "visit",
+      "neighboring",
+      "Guangdong",
+      "Province",
+      "on",
+      "Thursday",
+      ",",
+      "to",
+      "learn",
+      "from",
+      "Guangdong",
+      "'s",
+      "experience",
+      "and",
+      "know-how",
+      "in",
+      "combating",
+      "SARS",
+      ",",
+      "which",
+      "have",
+      "been",
+      "acknowledged",
+      "by",
+      "WHO",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "visit",
+        "start": 48,
+        "end": 49,
+        "event_type": "Movement:Transport"
+      },
+      {
+        "text": "named",
+        "start": 21,
+        "end": 22,
+        "event_type": "Personnel:Nominate"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "In",
+      "which",
+      ",",
+      "the",
+      "state",
+      "of",
+      "Israel",
+      "buys",
+      "--",
+      "many",
+      "expensive",
+      "military",
+      "weapons",
+      ",",
+      "ah",
+      ",",
+      "which",
+      "is",
+      "used",
+      "to",
+      "--",
+      "oppress",
+      "and",
+      "--",
+      "to",
+      "kill",
+      "a",
+      "lot",
+      "of",
+      "Palestinians",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "buys",
+        "start": 7,
+        "end": 8,
+        "event_type": "Transaction:Transfer-Ownership"
+      },
+      {
+        "text": "kill",
+        "start": 25,
+        "end": 26,
+        "event_type": "Life:Die"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "abbas",
+      "was",
+      "convicted",
+      "in",
+      "absentia",
+      "by",
+      "an",
+      "italian",
+      "court",
+      "and",
+      "sentenced",
+      "to",
+      "five",
+      "life",
+      "terms",
+      "in",
+      "prison",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "convicted",
+        "start": 2,
+        "end": 3,
+        "event_type": "Justice:Convict"
+      },
+      {
+        "text": "sentenced",
+        "start": 10,
+        "end": 11,
+        "event_type": "Justice:Sentence"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Yeah",
+      ",",
+      "well",
+      ",",
+      "I",
+      "that",
+      "'s",
+      "what",
+      "I",
+      "was",
+      "g",
+      "-",
+      "my",
+      "next",
+      "question",
+      "was",
+      ",",
+      "that",
+      "was",
+      "another",
+      "big",
+      "criminal",
+      "criminal",
+      ",",
+      "uh",
+      ",",
+      "trial",
+      ","
+    ],
+    "triggers": [
+      {
+        "text": "trial",
+        "start": 26,
+        "end": 27,
+        "event_type": "Justice:Trial-Hearing"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Not",
+      "only",
+      "that",
+      ",",
+      "but",
+      "if",
+      "Mylan",
+      "bought",
+      "him",
+      "out",
+      ",",
+      "they",
+      "'d",
+      "have",
+      "less",
+      "money",
+      "to",
+      "fund",
+      "a",
+      "purchase",
+      "of",
+      "King",
+      "Pharmaceuticals",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "bought",
+        "start": 7,
+        "end": 8,
+        "event_type": "Transaction:Transfer-Ownership"
+      },
+      {
+        "text": "purchase",
+        "start": 19,
+        "end": 20,
+        "event_type": "Transaction:Transfer-Ownership"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "believe",
+      "any",
+      "neutral",
+      "management",
+      "consultant",
+      "worth",
+      "his",
+      "or",
+      "her",
+      "salt",
+      "would",
+      "recommend",
+      "a",
+      "merger",
+      "of",
+      "the",
+      "two",
+      "organizations",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "merger",
+        "start": 14,
+        "end": 15,
+        "event_type": "Business:Merge-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Both",
+      "the",
+      "AMA",
+      "and",
+      "the",
+      "Bush",
+      "administration",
+      "released",
+      "reports",
+      "this",
+      "week",
+      "saying",
+      "out",
+      "of",
+      "control",
+      "trial",
+      "lawyers",
+      "are",
+      "driving",
+      "doctors",
+      "out",
+      "of",
+      "their",
+      "practices",
+      "all",
+      "across",
+      "the",
+      "country",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "driving",
+        "start": 18,
+        "end": 19,
+        "event_type": "Business:End-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Meanwhile",
+      ",",
+      "those",
+      "collectors",
+      "who",
+      "left",
+      "the",
+      "National",
+      "Carousel",
+      "Association",
+      "banded",
+      "together",
+      "to",
+      "form",
+      "the",
+      "American",
+      "Carousel",
+      "Society",
+      "-LRB-",
+      "ACS",
+      "-RRB-",
+      ",",
+      "whose",
+      "stated",
+      "aims",
+      "of",
+      "carousel",
+      "preservation",
+      "also",
+      "recognized",
+      "collectors",
+      "as",
+      "a",
+      "positive",
+      "asset",
+      "towards",
+      "that",
+      "goal",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "form",
+        "start": 13,
+        "end": 14,
+        "event_type": "Business:Start-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Remember",
+      "when",
+      "Michael",
+      "Milken",
+      "got",
+      "busted",
+      ",",
+      "he",
+      "was",
+      "not",
+      "forced",
+      "to",
+      "give",
+      "up",
+      "his",
+      "secret",
+      "accounts",
+      ",",
+      "and",
+      "when",
+      "the",
+      "fine",
+      "of",
+      "600",
+      "million",
+      "was",
+      "levied",
+      "...",
+      "HE",
+      "PAID",
+      "IT",
+      "!!"
+    ],
+    "triggers": [
+      {
+        "text": "fine",
+        "start": 21,
+        "end": 22,
+        "event_type": "Justice:Fine"
+      },
+      {
+        "text": "IT",
+        "start": 30,
+        "end": 31,
+        "event_type": "Justice:Fine"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "wonder",
+      "if",
+      "B",
+      "had",
+      "a",
+      "huge",
+      "messy",
+      "divorce",
+      ",",
+      "and",
+      "his",
+      "ex",
+      "took",
+      "the",
+      "kid",
+      "out",
+      "of",
+      "state",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "took",
+        "start": 13,
+        "end": 14,
+        "event_type": "Movement:Transport"
+      },
+      {
+        "text": "divorce",
+        "start": 8,
+        "end": 9,
+        "event_type": "Life:Divorce"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "the",
+      "bankrupcy",
+      "filing",
+      "took",
+      "place",
+      "in",
+      "2003",
+      ",",
+      "but",
+      "it",
+      "didnt",
+      "clear",
+      "until",
+      "early",
+      "2004",
+      "and",
+      "that",
+      "was",
+      "when",
+      "i",
+      "gave",
+      "him",
+      "the",
+      "shares",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "bankrupcy",
+        "start": 1,
+        "end": 2,
+        "event_type": "Business:Declare-Bankruptcy"
+      },
+      {
+        "text": "gave",
+        "start": 20,
+        "end": 21,
+        "event_type": "Transaction:Transfer-Ownership"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "That",
+      "business",
+      "is",
+      "O-V-E-R",
+      "--",
+      "Between",
+      "pay-per-view",
+      ",",
+      "video-on-demand",
+      ",",
+      "pirated",
+      "movies",
+      ",",
+      "high-bandwidth",
+      "Internet",
+      "broadcasts",
+      ",",
+      "and",
+      "the",
+      "increasing",
+      "availability",
+      "of",
+      "other",
+      "media",
+      ",",
+      "it",
+      "takes",
+      "some",
+      "faith",
+      "to",
+      "see",
+      "any",
+      "future",
+      "for",
+      "movie",
+      "rentals",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "O-V-E-R",
+        "start": 3,
+        "end": 4,
+        "event_type": "Business:End-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "we",
+      "were",
+      "praying",
+      "that",
+      "he",
+      "would",
+      "get",
+      "here",
+      "on",
+      "time",
+      ",",
+      "unfortunately",
+      "he",
+      "missed",
+      "it",
+      ",",
+      "but",
+      "through",
+      "e-mails",
+      ",",
+      "pictures",
+      ",",
+      "he",
+      "actually",
+      "seen",
+      "him",
+      "grow",
+      ",",
+      "so",
+      "it",
+      "turned",
+      "out",
+      "to",
+      "be",
+      "okay",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "it",
+        "start": 14,
+        "end": 15,
+        "event_type": "Life:Be-Born"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Sheik",
+      "Ayad",
+      "Jamal",
+      "Al",
+      "Din",
+      ",",
+      "a",
+      "Shiite",
+      "religious",
+      "leader",
+      "from",
+      "Nasiriyah",
+      ",",
+      "urged",
+      "the",
+      "delegates",
+      "to",
+      "craft",
+      "a",
+      "secular",
+      "government",
+      ",",
+      "according",
+      "to",
+      "a",
+      "pool",
+      "report",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "craft",
+        "start": 17,
+        "end": 18,
+        "event_type": "Business:Start-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "company",
+      "intended",
+      "to",
+      "use",
+      "the",
+      "cash",
+      "to",
+      "pay",
+      "an",
+      "artificially",
+      "low",
+      "price",
+      "for",
+      "Yukos",
+      "assets",
+      "-LRB-",
+      "hence",
+      "that",
+      "firm",
+      "'s",
+      "bankruptcy",
+      "filing",
+      "a",
+      "few",
+      "days",
+      "ago",
+      "--",
+      "you",
+      "know",
+      "it",
+      "'s",
+      "bad",
+      "when",
+      "you",
+      "have",
+      "to",
+      "use",
+      "US",
+      "courts",
+      "to",
+      "protect",
+      "your",
+      "own",
+      "assets",
+      "from",
+      "appropriation",
+      "by",
+      "your",
+      "home",
+      "country",
+      "-RRB-",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "pay",
+        "start": 8,
+        "end": 9,
+        "event_type": "Transaction:Transfer-Ownership"
+      },
+      {
+        "text": "bankruptcy",
+        "start": 21,
+        "end": 22,
+        "event_type": "Business:Declare-Bankruptcy"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "He",
+      "was",
+      "sentenced",
+      "to",
+      "face",
+      "a",
+      "firing",
+      "squad",
+      ",",
+      "and",
+      "his",
+      "lawyer",
+      "has",
+      "said",
+      "he",
+      "also",
+      "plans",
+      "to",
+      "appeal",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "sentenced",
+        "start": 2,
+        "end": 3,
+        "event_type": "Justice:Sentence"
+      },
+      {
+        "text": "appeal",
+        "start": 18,
+        "end": 19,
+        "event_type": "Justice:Appeal"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Apparently",
+      "James",
+      "Baker",
+      ",",
+      "former",
+      "Secretary",
+      "of",
+      "State",
+      "and",
+      "current",
+      "envoy",
+      "for",
+      "the",
+      "Bush",
+      "Administration",
+      ",",
+      "has",
+      "asked",
+      "the",
+      "Isreali",
+      "government",
+      "to",
+      "release",
+      "a",
+      "scumbag",
+      "terrorist",
+      "to",
+      "promote",
+      "``",
+      "peace",
+      "''",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "former",
+        "start": 4,
+        "end": 5,
+        "event_type": "Personnel:End-Position"
+      },
+      {
+        "text": "release",
+        "start": 22,
+        "end": 23,
+        "event_type": "Justice:Release-Parole"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "but",
+      "they",
+      "turned",
+      "it",
+      "into",
+      "an",
+      "empire",
+      ",",
+      "what",
+      "shirley",
+      "temple",
+      "could",
+      "have",
+      "done",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "turned",
+        "start": 2,
+        "end": 3,
+        "event_type": "Business:Start-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "So",
+      "any",
+      "thoughts",
+      "on",
+      "who",
+      "you",
+      "uh",
+      "you",
+      "would",
+      "name",
+      "?"
+    ],
+    "triggers": [
+      {
+        "text": "name",
+        "start": 9,
+        "end": 10,
+        "event_type": "Personnel:Nominate"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Just",
+      "heard",
+      "yesterday",
+      "that",
+      "Hewlett",
+      "Packard",
+      "is",
+      "shutting",
+      "down",
+      "its",
+      "plant",
+      "in",
+      "Eugene",
+      ",",
+      "-LRB-",
+      "Thank",
+      "you",
+      "very",
+      "much",
+      "MS.",
+      "Fiorina",
+      "-RRB-",
+      "and",
+      "SUN",
+      "Micro",
+      "systems",
+      "is",
+      "all",
+      "but",
+      "gone",
+      "from",
+      "Oregon",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "shutting down",
+        "start": 7,
+        "end": 9,
+        "event_type": "Business:End-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Nathan",
+      "divorced",
+      "wallpaper",
+      "salesman",
+      "Bruce",
+      "Nathan",
+      "in",
+      "1992",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "divorced",
+        "start": 1,
+        "end": 2,
+        "event_type": "Life:Divorce"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "and",
+      "if",
+      "it",
+      "'s",
+      "rejected",
+      "the",
+      "largest",
+      "airline",
+      "may",
+      "have",
+      "to",
+      "file",
+      "for",
+      "bankruptcy",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "bankruptcy",
+        "start": 13,
+        "end": 14,
+        "event_type": "Business:Declare-Bankruptcy"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "That",
+      "means",
+      "that",
+      "he",
+      "received",
+      "the",
+      "shares",
+      "while",
+      "he",
+      "was",
+      "still",
+      "in",
+      "bankruptcy",
+      ",",
+      "which",
+      "means",
+      "that",
+      "the",
+      "shares",
+      "were",
+      "potentially",
+      "assets",
+      "that",
+      "the",
+      "trustee",
+      "could",
+      "use",
+      "to",
+      "pay",
+      "off",
+      "creditors",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "bankruptcy",
+        "start": 12,
+        "end": 13,
+        "event_type": "Business:Declare-Bankruptcy"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "But",
+      "Anwar",
+      "'s",
+      "lawyers",
+      "said",
+      "they",
+      "were",
+      "filing",
+      "a",
+      "fresh",
+      "request",
+      "for",
+      "bail",
+      "pending",
+      "a",
+      "further",
+      "appeal",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "appeal",
+        "start": 16,
+        "end": 17,
+        "event_type": "Justice:Appeal"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "he",
+      "was",
+      "born",
+      "on",
+      "november",
+      "4th",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "born",
+        "start": 2,
+        "end": 3,
+        "event_type": "Life:Be-Born"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "club",
+      "said",
+      "it",
+      "was",
+      "n't",
+      "aware",
+      "of",
+      "Toefting",
+      "'s",
+      "decision",
+      "to",
+      "drop",
+      "his",
+      "appeal",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "appeal",
+        "start": 14,
+        "end": 15,
+        "event_type": "Justice:Appeal"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Pasko",
+      ",",
+      "whose",
+      "sentence",
+      "included",
+      "time",
+      "served",
+      ",",
+      "was",
+      "released",
+      "in",
+      "January",
+      "for",
+      "good",
+      "behavior",
+      "after",
+      "serving",
+      "more",
+      "than",
+      "two-thirds",
+      "of",
+      "the",
+      "sentence",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "released",
+        "start": 9,
+        "end": 10,
+        "event_type": "Justice:Release-Parole"
+      },
+      {
+        "text": "sentence",
+        "start": 3,
+        "end": 4,
+        "event_type": "Justice:Sentence"
+      },
+      {
+        "text": "sentence",
+        "start": 22,
+        "end": 23,
+        "event_type": "Justice:Sentence"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "But",
+      "after",
+      "spending",
+      "40",
+      "days",
+      "in",
+      "prison",
+      ",",
+      "Jordan",
+      "'s",
+      "King",
+      "Abdullah",
+      "II",
+      "pardoned",
+      "the",
+      "former",
+      "legislator",
+      "known",
+      "for",
+      "her",
+      "harsh",
+      "criticism",
+      "of",
+      "the",
+      "state",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "pardoned",
+        "start": 13,
+        "end": 14,
+        "event_type": "Justice:Pardon"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "waksal",
+      "could",
+      "be",
+      "fined",
+      "$",
+      "3.5",
+      "million",
+      ",",
+      "facing",
+      "a",
+      "maximum",
+      "of",
+      "75",
+      "years",
+      "in",
+      "prison",
+      ",",
+      "expected",
+      ",",
+      "though",
+      ",",
+      "to",
+      "receive",
+      "about",
+      "six",
+      "to",
+      "seven",
+      "years",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "fined",
+        "start": 3,
+        "end": 4,
+        "event_type": "Justice:Fine"
+      },
+      {
+        "text": "receive",
+        "start": 22,
+        "end": 23,
+        "event_type": "Justice:Sentence"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "In",
+      "the",
+      "latest",
+      "edition",
+      ",",
+      "staff",
+      "writer",
+      "Jeremy",
+      "M.",
+      "Lazarus",
+      "reports",
+      "that",
+      "the",
+      "Legislative",
+      "Black",
+      "Caucus",
+      "celebrated",
+      "killing",
+      "a",
+      "bill",
+      "that",
+      "would",
+      "have",
+      "merged",
+      "the",
+      "Department",
+      "of",
+      "Minority",
+      "Business",
+      "Enterprise",
+      "-LRB-",
+      "DMBE",
+      "-RRB-",
+      "with",
+      "the",
+      "Department",
+      "of",
+      "Business",
+      "Assistance",
+      "-LRB-",
+      "DBA",
+      "-RRB-",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "merged",
+        "start": 23,
+        "end": 24,
+        "event_type": "Business:Merge-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "now",
+      "it",
+      "'s",
+      "up",
+      "to",
+      "the",
+      "appeals",
+      "court",
+      "and",
+      "the",
+      "board",
+      "of",
+      "pardon",
+      "and",
+      "paroles",
+      "to",
+      "officially",
+      "clear",
+      "their",
+      "names",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "clear",
+        "start": 17,
+        "end": 18,
+        "event_type": "Justice:Pardon"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Giuliani",
+      ",",
+      "58",
+      ",",
+      "proposed",
+      "to",
+      "Nathan",
+      ",",
+      "a",
+      "former",
+      "nurse",
+      ",",
+      "during",
+      "a",
+      "November",
+      "business",
+      "trip",
+      "to",
+      "Paris",
+      "_",
+      "five",
+      "months",
+      "after",
+      "he",
+      "finalized",
+      "his",
+      "divorce",
+      "from",
+      "Donna",
+      "Hanover",
+      "after",
+      "20",
+      "years",
+      "of",
+      "marriage",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "trip",
+        "start": 16,
+        "end": 17,
+        "event_type": "Movement:Transport"
+      },
+      {
+        "text": "divorce",
+        "start": 26,
+        "end": 27,
+        "event_type": "Life:Divorce"
+      },
+      {
+        "text": "marriage",
+        "start": 34,
+        "end": 35,
+        "event_type": "Life:Marry"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "those",
+      "favoring",
+      "the",
+      "rule",
+      "say",
+      "it",
+      "gives",
+      "convicts",
+      "incentive",
+      "to",
+      "behave",
+      "in",
+      "prison",
+      "and",
+      "enables",
+      "judges",
+      "to",
+      "release",
+      "prisoners",
+      "if",
+      "new",
+      "evidence",
+      "comes",
+      "to",
+      "light",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "release",
+        "start": 17,
+        "end": 18,
+        "event_type": "Justice:Release-Parole"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "think",
+      "divorce",
+      "is",
+      "really",
+      "stupid",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "divorce",
+        "start": 2,
+        "end": 3,
+        "event_type": "Life:Divorce"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "'ll",
+      "have",
+      "to",
+      "stick",
+      "with",
+      "condemning",
+      "the",
+      "merger",
+      "as",
+      "a",
+      "totally",
+      "unworkable",
+      "deal",
+      "between",
+      "two",
+      "sides",
+      "who",
+      "absolutely",
+      "hate",
+      "each",
+      "other",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "merger",
+        "start": 8,
+        "end": 9,
+        "event_type": "Business:Merge-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Ellison",
+      "is",
+      "brilliant",
+      "enough",
+      "to",
+      "make",
+      "this",
+      "merger",
+      "work",
+      ",",
+      "but",
+      "he",
+      "'s",
+      "crazy",
+      "enough",
+      "to",
+      "wreck",
+      "even",
+      "the",
+      "soundest",
+      "of",
+      "deals",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "merger",
+        "start": 7,
+        "end": 8,
+        "event_type": "Business:Merge-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "-LRB-",
+      "-LRB-",
+      "-RRB-",
+      "-RRB-",
+      "--",
+      "You",
+      "know",
+      "who",
+      "I",
+      "would",
+      "name",
+      "?"
+    ],
+    "triggers": [
+      {
+        "text": "name",
+        "start": 10,
+        "end": 11,
+        "event_type": "Personnel:Nominate"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "'d",
+      "love",
+      "to",
+      "call",
+      "it",
+      "a",
+      "classic",
+      "raid",
+      "--",
+      "he",
+      "'s",
+      "making",
+      "an",
+      "offer",
+      "for",
+      "the",
+      "company",
+      ",",
+      "nominating",
+      "his",
+      "own",
+      "board",
+      ",",
+      "claiming",
+      "management",
+      "can",
+      "accept",
+      "one",
+      "or",
+      "the",
+      "other",
+      "or",
+      "both",
+      ",",
+      "and",
+      "hinting",
+      "that",
+      "if",
+      "they",
+      "paid",
+      "him",
+      "enough",
+      ",",
+      "he",
+      "'d",
+      "probably",
+      "go",
+      "away",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "offer",
+        "start": 14,
+        "end": 15,
+        "event_type": "Transaction:Transfer-Ownership"
+      },
+      {
+        "text": "nominating",
+        "start": 19,
+        "end": 20,
+        "event_type": "Personnel:Nominate"
+      },
+      {
+        "text": "paid",
+        "start": 40,
+        "end": 41,
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "And",
+      "with",
+      "the",
+      "constant",
+      "merging",
+      "with",
+      "other",
+      "banks",
+      ","
+    ],
+    "triggers": [
+      {
+        "text": "merging",
+        "start": 4,
+        "end": 5,
+        "event_type": "Business:Merge-Org"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "waiver",
+      "of",
+      "extradition",
+      "that",
+      "she",
+      "signed",
+      "simply",
+      "means",
+      "that",
+      "if",
+      "she",
+      "skips",
+      "out",
+      "and",
+      "goes",
+      "to",
+      "another",
+      "state",
+      ",",
+      "she",
+      "ca",
+      "n't",
+      "contest",
+      "the",
+      "right",
+      "of",
+      "the",
+      "original",
+      "court",
+      "to",
+      "have",
+      "her",
+      "hauled",
+      "back",
+      "to",
+      "its",
+      "jurisdiction",
+      ",",
+      "and",
+      "that",
+      "the",
+      "court",
+      "wo",
+      "n't",
+      "have",
+      "to",
+      "initiate",
+      "the",
+      "time-consuming",
+      "process",
+      "of",
+      "extraditing",
+      "her",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "skips",
+        "start": 12,
+        "end": 13,
+        "event_type": "Movement:Transport"
+      },
+      {
+        "text": "hauled back",
+        "start": 33,
+        "end": 35,
+        "event_type": "Movement:Transport"
+      },
+      {
+        "text": "extradition",
+        "start": 3,
+        "end": 4,
+        "event_type": "Justice:Extradite"
+      },
+      {
+        "text": "extraditing",
+        "start": 52,
+        "end": 53,
+        "event_type": "Justice:Extradite"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "would",
+      "n't",
+      "be",
+      "surprised",
+      "if",
+      "this",
+      "Arroyo",
+      "character",
+      "-LRB-",
+      "who",
+      "was",
+      "killed",
+      "by",
+      "police",
+      "as",
+      "he",
+      "tried",
+      "to",
+      "flee",
+      "-RRB-",
+      "had",
+      "a",
+      "serious",
+      "criminal",
+      "past",
+      "but",
+      "has",
+      "been",
+      "allowed",
+      "to",
+      "walk",
+      "free",
+      "due",
+      "to",
+      "our",
+      "lax",
+      "judicial",
+      "process",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "killed",
+        "start": 12,
+        "end": 13,
+        "event_type": "Life:Die"
+      },
+      {
+        "text": "walk free",
+        "start": 31,
+        "end": 33,
+        "event_type": "Justice:Acquit"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "The",
+      "ruling",
+      "by",
+      "judges",
+      "Piet",
+      "Streicher",
+      "and",
+      "Mohamed",
+      "Navsa",
+      "of",
+      "the",
+      "Supreme",
+      "Court",
+      "of",
+      "Appeal",
+      ",",
+      "the",
+      "highest",
+      "appeals",
+      "court",
+      "in",
+      "the",
+      "country",
+      ",",
+      "means",
+      "that",
+      "Basson",
+      "can",
+      "not",
+      "be",
+      "tried",
+      "again",
+      "and",
+      "his",
+      "acquittal",
+      "stands",
+      ",",
+      "the",
+      "South",
+      "African",
+      "Press",
+      "Association",
+      "reported",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "acquittal",
+        "start": 34,
+        "end": 35,
+        "event_type": "Justice:Acquit"
+      },
+      {
+        "text": "tried",
+        "start": 30,
+        "end": 31,
+        "event_type": "Justice:Trial-Hearing"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "taken",
+      "into",
+      "custody",
+      "and",
+      "he",
+      "'s",
+      "currently",
+      "at",
+      "atlanta",
+      "police",
+      "department",
+      "headquarters",
+      "pending",
+      "extradition",
+      "back",
+      "to",
+      "the",
+      "state",
+      "of",
+      "louisiana",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "custody",
+        "start": 2,
+        "end": 3,
+        "event_type": "Justice:Arrest-Jail"
+      },
+      {
+        "text": "extradition",
+        "start": 13,
+        "end": 14,
+        "event_type": "Justice:Extradite"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "I",
+      "-",
+      "it",
+      "just",
+      ",",
+      "I",
+      "do",
+      "n't",
+      "know",
+      "what",
+      "would",
+      "happen",
+      "if",
+      "he",
+      "was",
+      "found",
+      "guilty",
+      ",",
+      "but",
+      "now",
+      "I",
+      "think",
+      "they",
+      "said",
+      "that",
+      "they",
+      "wanted",
+      "to",
+      "prove",
+      "that",
+      "--",
+      "you",
+      "know",
+      ",",
+      "okay",
+      ",",
+      "we",
+      "'re",
+      "not",
+      "going",
+      "to",
+      "let",
+      "this",
+      "guy",
+      "walk",
+      ",",
+      "like",
+      ",",
+      "do",
+      "n't",
+      "let",
+      "this",
+      "guy",
+      "walk",
+      "either",
+      ",",
+      "big",
+      "high",
+      "profile",
+      "case",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "walk",
+        "start": 44,
+        "end": 45,
+        "event_type": "Justice:Acquit"
+      },
+      {
+        "text": "guilty",
+        "start": 16,
+        "end": 17,
+        "event_type": "Justice:Convict"
+      }
+    ]
+  },
+  {
+    "sentence": [
+      "Wouter",
+      "Basson",
+      "was",
+      "acquitted",
+      "in",
+      "April",
+      "2002",
+      "on",
+      "46",
+      "charges",
+      ",",
+      "ranging",
+      "from",
+      "murder",
+      "and",
+      "drug",
+      "trafficking",
+      "to",
+      "fraud",
+      "and",
+      "theft",
+      "."
+    ],
+    "triggers": [
+      {
+        "text": "acquitted",
+        "start": 3,
+        "end": 4,
+        "event_type": "Justice:Acquit"
+      },
+      {
+        "text": "charges",
+        "start": 9,
+        "end": 10,
+        "event_type": "Justice:Charge-Indict"
+      }
+    ]
+  }
+]
